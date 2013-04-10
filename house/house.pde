@@ -1,9 +1,7 @@
 void setup() {
  size(500, 500); 
 }
-
-void draw() {
-  // build a house!
+void drawHouse(){
   noStroke();
   fill(255,100,0);
   triangle(200,200,290,200,250,150);
@@ -13,6 +11,11 @@ void draw() {
   rect(210,230,20,70);
   fill(8,187,250);
   rect(240,210,40,40);
+  
+}
+void draw() {
+  
+ 
   
 }
 
